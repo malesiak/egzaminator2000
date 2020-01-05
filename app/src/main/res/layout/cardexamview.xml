@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="#FFEB3B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbarSize="3dp">
+
+        <TextView
+            android:id="@+id/lblName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nazwa egzaminu"
+            android:textColor="#000"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/lblDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data egzaminu"
+            android:textColor="#000"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/lblTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Godzina egzaminu"
+            android:textColor="#000"
+            android:textSize="14dp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
