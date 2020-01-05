@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Nazwa przedmiotu"
+            android:hint="Nazwa przemiotu"
             android:inputType="textPersonName" />
 
         <EditText
@@ -68,12 +68,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Aktualizuj" />
-
-        <Button
-            android:id="@+id/btnShowData"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Pokaz liste" />
 
         <TextView
             android:id="@+id/lblListaEgzaminow"

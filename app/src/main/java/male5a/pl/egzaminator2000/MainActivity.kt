@@ -52,7 +52,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val exams = myExamCrud.GetAllRecords()as ArrayList<ExamData>
         examsList.addAll(exams)
         lblListaEgzaminow.text=examsList.count().toString()
-
         adapterRecView.notifyDataSetChanged()
     }
 
@@ -117,10 +116,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             adapterRecView.notifyDataSetChanged()
         }
 
-        btnShowData.setOnClickListener {
-
-            Aktualizuj()
-        }
 
         btnDelete.setOnClickListener {
             myExamCrud.DeleteRecord(myExamCrud.IDRecord)
